@@ -1,9 +1,9 @@
 Meteor.startup(function() {
   // Define the admin role
   try {
-    var adminRole = Meteor.settings.private.adminRoleName;
+    var adminRoleName = Meteor.settings.private.adminRoleName;
   } catch (error) {
-    var adminRole = 'admin';
+    var adminRoleName = 'admin';
   };
 
   // Create Admin role if it doesn't exist
