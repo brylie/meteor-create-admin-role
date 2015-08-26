@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Define and create an Admin role when Meteor starts.",
-  version: "0.1.2",
+  version: "0.1.3",
   name: "brylie:create-admin-role",
   git: "https://github.com/brylie/meteor-create-admin-role.git"
 });
